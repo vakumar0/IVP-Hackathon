@@ -1,1 +1,7 @@
 F:\Programming\New folder\IVP-Hackathon\Hackathon\obj\Debug\Hackathon.csprojResolveAssemblyReference.cache
+F:\Programming\IVP-Hackathon\Hackathon\obj\Debug\Hackathon.csprojResolveAssemblyReference.cache
+F:\Programming\IVP-Hackathon\Hackathon\bin\Hackathon.dll.config
+F:\Programming\IVP-Hackathon\Hackathon\bin\Hackathon.dll
+F:\Programming\IVP-Hackathon\Hackathon\bin\Hackathon.pdb
+F:\Programming\IVP-Hackathon\Hackathon\obj\Debug\Hackathon.dll
+F:\Programming\IVP-Hackathon\Hackathon\obj\Debug\Hackathon.pdb
