@@ -5,7 +5,7 @@ IVP UX Core 2019 Hackathon was conducted by Indus Valley Partners. This was a si
   - Design a new paradigm of menus, top bars, left bars, filters, color themes etc.
   - Visualization of data through Interactive dashboard with mix of grids and charts, drill through, etc.
   - Navigation paradigm through menus/ dashboards.
-  - Allow users to view data in grids , multi tab interactivit.
+  - Allow users to view data in grids , multi tab interactivity.
   - A form-based screen, e.g. Security Create/Update or a trade booking system.
 
 ### Technologies And Libaries Used
@@ -21,3 +21,4 @@ IVP UX Core 2019 Hackathon was conducted by Indus Valley Partners. This was a si
 ### Setup
   - Take the checkout of the repository. 
   - Run Hackathon.sln
+  - Press F5 to run the solution
