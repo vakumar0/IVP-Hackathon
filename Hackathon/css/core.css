@@ -1,0 +1,1241 @@
+@font-face {
+    font-family: 'BIG JOHN';
+    src: url('fonts/BIG JOHN.otf');
+}
+
+@font-face {
+    font-family: 'Slim Joe';
+    src: url('fonts/Slim Joe.otf');
+}
+
+@font-face {
+    font-family: 'Lovelo-LineLight';
+    src: url('fonts/Lovelo-LineLight.otf');
+}
+
+@font-face {
+    font-family: 'Lovelo-Black';
+    src: url('fonts/Lovelo-Black.otf');
+}
+
+@font-face {
+    font-family: 'BIG JOHN';
+    src: url('fonts/BIG JOHN.otf');
+}
+
+#coverAll {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: fixed;
+    z-index: 9911;
+    display: none;
+    background-color: #909090;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+    /*background-color: #eeeff8;*/
+    background-color: #f2f2f2;
+}
+
+/***************Header Start***********************/
+#headerNavBar {
+    list-style: none;
+    color: white;
+    background-color: #1976d2;
+    height: 40px;
+}
+
+    #headerNavBar li {
+        float: left;
+    }
+
+    #headerNavBar .headerNavBarLeftSection {
+        float: left;
+        width: 15%;
+        font-weight: bold;
+        font-size: 20px;
+        /*font-family: cursive;*/
+        text-transform: uppercase;
+        padding-top: 3px;
+    }
+
+    #headerNavBar .headerNavBarRightSection {
+        float: right;
+        width: 85%;
+        padding-top: 8px;
+    }
+
+.headerNavBarRightSection .searchSection {
+    width: 72%;
+    display: inline-flex;
+}
+
+.headerNavBarRightSection #searchBox {
+    width: 50%;
+    background-color: white;
+    height: 20px;
+    margin-left: 42%;
+    border-radius: 5px;
+}
+
+.headerNavBarRightSection .adminSection {
+    /*width: 20%;*/
+}
+
+#headerNavBar .adminSection {
+    display: inline-flex;
+    /*margin-left:5%;*/
+}
+
+#headerNavBar #adminLabel {
+    padding-left: 10px;
+}
+
+#headerNavBar #searchIcon {
+    margin-left: 93%;
+}
+
+#headerNavBar #currentPageTitle {
+    width: 15%;
+}
+
+#headerNavBar #settingSection {
+    margin-left: 3%;
+}
+/***************Header END***********************/
+
+/***************LeftMenu Start***********************/
+#leftMenuMasterDiv {
+    font-size: 14px;
+    /*width: 180px;*/
+    width: 44px;
+    background-color: #ffffff;
+    color: white;
+    position: fixed;
+    height: 100%;
+    z-index: 999;
+    webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+    -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0px 1px;
+}
+
+    #leftMenuMasterDiv:hover {
+        /*width: 200px;*/
+        /*animation-name: leftMenuSwerve;
+        animation-duration: 0.3s;*/
+        width: 180px;
+    }
+
+@keyframes leftMenuSwerve {
+    from {
+        width: 44px;
+    }
+
+    to {
+        width: 200px;
+    }
+}
+
+#leftMenu ul {
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-block-start: 2em;
+}
+
+    #leftMenu ul li {
+        text-decoration: none;
+        /*color: #673ab7;*/
+        color: #3a8fb7;
+        overflow: hidden;
+        padding: 13px 0px 13px 15px;
+    }
+
+        #leftMenu ul li label {
+            width: 100px;
+        }
+
+        #leftMenu ul li:hover {
+            background-color: #f1f5f7;
+        }
+
+#leftMenu .material-icons {
+    /*cursor: pointer;*/
+    vertical-align: top;
+}
+
+#rightHeaders .material-icons {
+    vertical-align: sub;
+    padding-top: 4px;
+}
+
+#leftMenu #leftMenuHeader {
+    width: 95%;
+    font-size: 16px;
+    padding-left: 8px;
+    color: #3a8fb7;
+    height: 7%;
+    display: inline-flex;
+    margin-top: 5px;
+}
+
+    #leftMenu #leftMenuHeader #logo {
+        width: 34px;
+        height: 34px;
+    }
+
+#leftMenuHeader #headerLabels {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75%;
+    font-family: lovelo-black;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.material-icons {
+    font-size: 18px !important;
+}
+
+.selectedLeftMenu {
+    background-color: #e1e7ea;
+}
+
+.showLeftMenuLabels {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.hideLeftMenuLabels {
+    display: none;
+}
+
+#leftMenuHeader label {
+    vertical-align: top;
+    position: relative;
+    top: -6px;
+}
+
+#ivpInstance {
+    margin-left: 27%;
+    font-size: 12px;
+    /*position: relative;
+    top: -7px;*/
+}
+
+#moduleNames {
+    height: 84%;
+    /*height: 70%;*/
+    /*margin-top: 45%;*/
+}
+
+#leftMenuFooter {
+    color: #5d5d5d;
+    margin-left: 14%;
+}
+
+    #leftMenuFooter .material-icons {
+        font-size: 12px !important;
+        vertical-align: middle;
+        cursor: default;
+    }
+
+    #leftMenuFooter label {
+        font-size: 9px;
+        margin-left: 0px;
+        vertical-align: middle;
+        width: 80%;
+    }
+
+#leftMenuRightArrow {
+    vertical-align: top;
+    display: none;
+}
+/***************LeftMenu END***********************/
+
+/***************Tabs Start***********************/
+#contentBody {
+    width: 97%;
+    height: 94%;
+    margin-left: 3%;
+}
+
+#headerBody {
+    margin-left: 3%;
+}
+
+    #headerBody #tabsParentDiv {
+        display: inline;
+        margin-left: 15px;
+        font-size: 14px;
+    }
+
+        #headerBody #tabsParentDiv .tabs {
+            width: 12%;
+            background-color: #ffffff;
+            height: 30px;
+            margin-left: 15px;
+            border-radius: 0px 0px 8px 8px;
+            /*color: #673ab7;*/
+            color: #3a8fb7;
+            text-align: center;
+            display: inline-block;
+            cursor: pointer;
+            text-transform: uppercase;
+            webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+            -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 1px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+        }
+
+            #headerBody #tabsParentDiv .tabs.selected {
+                /*background-color: #673ab7;*/
+                background-color: #3a8fb7;
+                color: white;
+                webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+                -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+                box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+            }
+
+    #headerBody .tabs .tabLabel {
+        padding-top: 4px;
+        /*font-family: fantasy;*/
+        font-weight: bold;
+        height: 100%;
+    }
+
+    #headerBody #rightHeaders {
+        float: right;
+        /*margin-right: 0.7%;
+        position: fixed;
+        z-index: 110;
+        left: 98%;
+        top: 0px;*/
+    }
+
+#rightHeadersIcons {
+    display: inline-flex;
+    color: #3a8fb7;
+    padding-top: 5px;
+}
+
+#rightHeaders .rightFilter {
+    display: inline-block;
+    cursor: pointer;
+    cursor: pointer;
+    margin-right: 45px;
+    cursor: pointer;
+    /*position: fixed;
+    z-index: 110;
+    left: 98%;
+    top: 0px;*/
+}
+
+    #rightHeaders .rightFilter #loginUser {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+#headerBody #rightHeaders input[name="dates"] {
+    margin-right: 20px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: none;
+    border: 0px;
+    color: #000000;
+    padding: 5%;
+    font-weight: bold;
+    background-color: #ececec;
+    text-align: center;
+    webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+    -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0px 1px;
+    display: inline-block;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #3a8fb7;
+}
+
+#rightFilterMenu #filterButtons {
+    padding: 5px 10px 5px 10px;
+}
+
+    #rightFilterMenu #filterButtons #filterHeading {
+        display: inline-block;
+        color: #737373;
+    }
+
+    #rightFilterMenu #filterButtons #applyFilter {
+        float: right;
+        margin-left: 5px;
+    }
+
+    #rightFilterMenu #filterButtons #closeFilter {
+        float: right;
+        margin-right: 5px;
+    }
+
+    #rightFilterMenu #filterButtons .rightFilterButtons {
+        display: inline-block;
+        border-radius: 3px;
+        padding: 5px 10px 5px 10px;
+        font-size: 12px;
+        color: white;
+        background-color: #3a8fb7;
+    }
+
+#selectAll {
+    float: right;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.checkBoxClick {
+    cursor: pointer;
+}
+/***************Tabs End***********************/
+
+/***************RightMenu Start***********************/
+#rightHeaders #rightFilterMenu {
+    height: 99%;
+    width: 17%;
+    position: fixed;
+    left: 83%;
+    z-index: 100;
+    top: 33px;
+    background-color: #ffffff;
+    /*background-color: #fbfbff;*/
+    /*border-radius: 5px;*/
+    webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+    -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0px 2px;
+    display: none;
+    border: 1px solid #cecccc;
+}
+
+    #rightHeaders #rightFilterMenu ul {
+        list-style: none;
+        padding-left: 14px;
+        margin: 5px 10px 20px 0px;
+    }
+
+        #rightHeaders #rightFilterMenu ul li {
+            display: inline-block;
+            border: 0.5px solid #3a8fb7;
+            font-size: 12px;
+            padding: 3px 8px 5px 6px;
+            background-color: #fcfcfc;
+            border-radius: 11px;
+            color: #3b82a5;
+            margin-top: 5px;
+            margin-right: 4px;
+            webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+            -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 1px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0 0px 1px;
+            cursor: pointer;
+        }
+
+            #rightHeaders #rightFilterMenu ul li.pressed {
+                webkit-box-shadow: inset rgba(0, 0, 0, 0.3) 0px 1px 0px 0px;
+                -moz-box-shadow: inset rgba(0, 0, 0, 0.3) 0px 1px 0px 0px;
+                box-shadow: inset rgba(0, 0, 0, 0.3) 0px 1px 0px 0px;
+                background-color: #6e549d;
+            }
+
+#rightMenuTitle {
+    padding-left: 10px;
+    font-size: 12px;
+    color: #3a8fb7;
+    margin-top: 15px;
+}
+
+.underline {
+    border-top: 1px solid #d7d7d7;
+    margin-bottom: 10px;
+    margin-left: 11px;
+    display: block;
+    width: 93%;
+}
+
+.addMargin {
+    margin-top: 40px;
+    display: none;
+}
+
+input[type="checkbox" i] {
+    webkit-appearance: none;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    box-shadow: none;
+    display: none;
+}
+
+input[type="radio" i] {
+    width: 15px;
+    height: 15px;
+    top: 3px;
+    position: relative;
+    display: none;
+}
+
+.checked {
+    background-color: #66b4d8 !important;
+    color: white !important;
+}
+
+.check {
+    margin-right: 5px;
+}
+
+/*.checkbox_selected {
+    display: none;
+}*/
+
+/*.checkbox_unselected {
+    display: inline-block !important;
+}*/
+/***************RightMenu End***********************/
+
+
+/***************Dashboard Start***********************/
+#moduleDashboard {
+    height: 100%;
+    width: 100%;
+}
+
+    #moduleDashboard #leftArea {
+        height: 97%;
+        width: 61%;
+        margin-top: 1%;
+        margin-left: 2%;
+        /*background-color: #ffffff;*/
+        float: left;
+    }
+
+        #moduleDashboard #leftArea #topLeftArea {
+            height: 63%;
+        }
+
+        #moduleDashboard #leftArea #bottomLeftArea {
+            height: 32.7%;
+            width: 100%;
+            display: inline-flex;
+        }
+
+    #moduleDashboard #rightArea {
+        height: 100%;
+        width: 37%;
+        float: right;
+        margin-top: 5px;
+    }
+
+    #moduleDashboard .tiles {
+        width: 97%;
+        height: 31.7%;
+        background-color: #ffffff;
+        margin-left: 1%;
+        margin-bottom: 2%;
+        /*border-radius: 10px;*/
+        webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+        -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 1px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+    }
+
+        #moduleDashboard .tiles.crop {
+            display: inline-block;
+            width: 64%;
+            margin-left: 1%;
+            height: 100%;
+            margin-bottom: 0;
+        }
+
+        #moduleDashboard .tiles:hover {
+            webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 6px;
+            -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 6px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0 1px 6px;
+        }
+
+    #moduleDashboard .smalltiles {
+        width: 34%;
+        height: 100%;
+        background-color: #2c6d7c;
+        display: inline-block;
+        webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+        -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 1px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+    }
+
+        #moduleDashboard .smalltiles:hover {
+            webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 6px;
+            -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 6px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0 1px 6px;
+        }
+
+    #moduleDashboard #leftArea .highcharts-background {
+        opacity: 0;
+    }
+
+    #moduleDashboard .tileHeading {
+        height: 10%;
+        font-size: 14px;
+        padding: 4px 0px 2px 10px;
+        /*color: #777886;*/
+        color: #3a8fb7;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    #moduleDashboard .highchartsArea {
+        height: 83%;
+    }
+
+        #moduleDashboard .highchartsArea .highcharts-legend-item tspan {
+            font-size: 12px;
+            font-weight: normal;
+            fill: #4f5359;
+        }
+
+            #moduleDashboard .highchartsArea .highcharts-legend-item tspan:hover {
+                font-size: 12px;
+                font-weight: normal;
+                fill: #4f5359;
+            }
+
+        #moduleDashboard .highchartsArea .highcharts-label.highcharts-data-label tspan {
+            font-size: 12px;
+            font-weight: normal;
+            fill: #4f5359;
+        }
+
+    #moduleDashboard #chartTypes {
+        height: 4%;
+        display: inline-block;
+        width: 100%;
+    }
+
+        #moduleDashboard #chartTypes div {
+            display: inline-block;
+        }
+
+        #moduleDashboard #chartTypes label {
+        }
+
+        #moduleDashboard #chartTypes ul {
+            list-style: none;
+            display: inline-flex;
+            margin: 0px;
+        }
+
+            #moduleDashboard #chartTypes ul li {
+            }
+
+    #moduleDashboard #chartTypeHeading {
+        display: inline-block;
+        margin-left: 3%;
+        color: #3a8fb7;
+        font-weight: bold;
+        width: 15%;
+    }
+
+    #moduleDashboard #chartTypeOptions {
+        width: 43%;
+        margin-left: 37%;
+        text-align: right;
+    }
+
+    #moduleDashboard .chartTypes {
+        font-size: 12px;
+        padding: 5px 10px 5px 10px;
+        border-radius: 5px;
+        margin-right: 10px;
+        background-color: white;
+        cursor: pointer;
+    }
+/***************Dashboard End***********************/
+
+/*********************GRID START***********************/
+.jsgrid-table {
+    font-size: 12px;
+}
+
+#bindTable {
+    width: 98%;
+    height: 100%;
+    padding: 10px 0px 0px 30px;
+}
+
+.jsgrid-header-row {
+    color: #3a8fb7;
+}
+
+.alignLeft {
+    text-align: left !important;
+}
+
+.alignRight {
+    text-align: right !important;
+}
+
+#gridOptions {
+    height: 20px;
+    width: 100%;
+    border-top: 1px solid #E9E9E8;
+    border-right: 1px solid #E9E9E8;
+    border-left: 1px solid #E9E9E8;
+    background-color: #f9f9f9;
+}
+
+#gridSizeDiv {
+    float: right;
+    margin-right: 15px;
+    display: inline-flex;
+}
+
+#gridArea {
+    height: 97%;
+    width: 100%;
+}
+
+#smallGrid, #normalGrid, #largeGrid {
+    cursor: pointer;
+    margin-left: 20px;
+    color: #3a8fb7;
+    margin-top: 2px;
+}
+
+#findInPage {
+    margin-right: 30px;
+}
+
+#findInPageIcon {
+    color: #3a8fb7;
+    vertical-align: middle;
+}
+
+#findInPageTextBox {
+    border-radius: 5px;
+    border: 1px solid #3a8fb7;
+    border-radius: 5px;
+    border: 1px solid #3a8fb7;
+    height: 15px;
+    font-size: 11px;
+    padding-left: 5px;
+}
+/*********************GRID END***********************/
+
+/*********************Trades Start***********************/
+#trades {
+    width: 97%;
+    height: 100%;
+    margin: 10px 0px 0px 30px;
+    /*background-color: white;*/
+    padding: 1px;
+}
+
+#tradesHeader {
+    height: 10%;
+}
+
+#tradesBody {
+    height: 90%;
+    background-color: white;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding: 1px;
+}
+
+/*********************Trades End***********************/
+
+/*********************Wizard Start***********************/
+
+.wizard, .tabcontrol {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+    .wizard a, .tabcontrol a {
+        outline: 0;
+    }
+
+    .wizard ul, .tabcontrol ul {
+        list-style: none !important;
+        padding: 0;
+        margin: 0;
+        display: inline-flex;
+        /*width: 100%;*/
+        width: 65%;
+        margin-left: 35%;
+    }
+
+    .wizard ul a:visited, .tabcontrol ul a:visited{
+        color: white;
+    }
+
+        .wizard ul > li, .tabcontrol ul > li {
+            display: block;
+            padding: 0;
+        }
+
+    .wizard > .steps .current-info, .tabcontrol > .steps .current-info {
+        position: absolute;
+        left: -999em;
+    }
+
+    .wizard > .content > .title, .tabcontrol > .content > .title {
+        /*position: absolute;*/
+        left: -999em;
+        color:#959595;
+        display: none;
+    }
+
+    .wizard > .steps {
+        position: relative;
+        display: block;
+        width: 100%;
+        /*margin: 1% 0% 0% 25%;*/
+        background-color: #3a8fb7;
+    }
+
+    .wizard.vertical > .steps {
+        display: inline;
+        float: left;
+        width: 30%;
+    }
+
+    .wizard > .steps .number {
+        font-size: 1.429em;
+    }
+
+    .wizard > .steps > ul > li {
+        width: 25%;
+    }
+
+    .wizard > .steps > ul > li, .wizard > .actions > ul > li {
+        /*float: left*/
+    }
+
+    .wizard.vertical > .steps > ul > li {
+        float: none;
+        width: 100%;
+    }
+
+    .wizard > .steps a, .wizard > .steps a:hover, .wizard > .steps a:active {
+        display: block;
+        width: auto;
+        /*margin: 0 .5em .5em;*/
+        padding: 5px 0px 5px 0px;
+        text-decoration: none;
+        /*-webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;*/
+    }
+
+    .wizard > .steps .disabled a, .wizard > .steps .disabled a:hover, .wizard > .steps .disabled a:active {
+        background: #3a8fb7;
+        color: #fff;
+        cursor: default;
+    }
+
+    .wizard > .steps .current a, .wizard > .steps .current a:hover, .wizard > .steps .current a:active {
+        background: #eee;
+        color: #aaa;
+        cursor: default;
+    }
+
+    .wizard > .content {
+        background: white;
+        display: block;
+        margin: .5em;
+        overflow: hidden;
+        height: 66%;
+        width: auto;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+    .wizard.vertical > .content {
+        display: inline;
+        float: left;
+        margin: 0 2.5% .5em 2.5%;
+        width: 65%;
+    }
+
+    .wizard > .content > .body {
+        /*float: left;*/
+        /*position: absolute;*/
+        width: 95%;
+        height: 95%;
+        /*padding: 2.5%;*/
+    }
+
+        .wizard > .content > .body ul {
+            list-style: disc !important;
+        }
+
+            .wizard > .content > .body ul > li {
+                display: list-item;
+            }
+
+        .wizard > .content > .body > iframe {
+            border: 0 none;
+            width: 100%;
+            height: 100%;
+        }
+
+        .wizard > .content > .body input {
+            display: block;
+            border: 1px solid #ccc;
+        }
+
+            .wizard > .content > .body input[type="checkbox"] {
+                display: inline-block;
+            }
+
+            .wizard > .content > .body input.error {
+                background: #fbe3e4;
+                border: 1px solid #fbc2c4;
+                color: #8a1f11;
+            }
+
+        .wizard > .content > .body label {
+            display: inline-block;
+            margin-bottom: .5em;
+        }
+
+            .wizard > .content > .body label.error {
+                color: #8a1f11;
+                display: inline-block;
+                margin-left: 1.5em;
+            }
+
+    .wizard > .actions {
+        position: relative;
+        display: block;
+        text-align: right;
+        width: 100%;
+    }
+
+    .wizard.vertical > .actions {
+        display: inline;
+        float: right;
+        margin: 0 2.5%;
+        width: 95%;
+    }
+
+    .wizard > .actions > ul {
+        display: inline-flex;
+        text-align: right;
+    }
+
+        .wizard > .actions > ul > li {
+            margin: 0 .5em;
+        }
+
+    .wizard.vertical > .actions > ul > li {
+        margin: 0 0 0 1em;
+    }
+
+    .wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+        background: #3a8fb7;
+        color: #fff;
+        display: block;
+        padding: .5em 1em;
+        text-decoration: none;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+    .wizard > .actions .disabled a, .wizard > .actions .disabled a:hover, .wizard > .actions .disabled a:active {
+        background: #eee;
+        color: #aaa;
+    }
+
+/*********************Wizard End***********************/
+
+/*****************Forms Starting***********************/
+
+#trades .group {
+    position: relative;
+    margin: 7% 0% 0% 18%;
+    padding: 1px;
+}
+
+#trades input {
+    font-size: 12px;
+    padding: 8px 10px 8px 5px;
+    display: block;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid #757575;
+}
+
+    #trades input:focus {
+        outline: none;
+    }
+
+#trades select {
+    font-size: 12px;
+    padding: 8px 10px 8px 5px;
+    display: block;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid #757575;
+}
+
+    #trades select:focus {
+        outline: none;
+    }
+
+
+#trades label {
+    color: #999;
+    font-size: 12px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+#trades input:focus ~ label, #trades input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #3a8fb7;
+}
+
+#trades select:focus ~ label, #trades select:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #3a8fb7;
+}
+
+#trades .bar {
+    position: relative;
+    display: block;
+    width: 300px;
+}
+
+    #trades .bar:before, #trades .bar:after {
+        content: '';
+        height: 2px;
+        width: 0;
+        bottom: 1px;
+        position: absolute;
+        background: #3a8fb7;
+        transition: 0.2s ease all;
+        -moz-transition: 0.2s ease all;
+        -webkit-transition: 0.2s ease all;
+    }
+
+    #trades .bar:before {
+        left: 50%;
+    }
+
+    #trades .bar:after {
+        right: 50%;
+    }
+
+#trades input:focus ~ #trades .bar:before, #trades input:focus ~ #trades .bar:after {
+    width: 50%;
+}
+
+#trades select:focus ~ #trades .bar:before, #trades select:focus ~ #trades .bar:after {
+    width: 50%;
+}
+
+#trades .highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+#trades input:focus ~ #trades .highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+}
+
+#trades input:select ~ #trades .highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+}
+
+@-webkit-keyframes inputHighlighter {
+    from {
+        background: #3a8fb7;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@-moz-keyframes inputHighlighter {
+    from {
+        background: #3a8fb7;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@keyframes inputHighlighter {
+    from {
+        background: #3a8fb7;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+/*********************Forms End***********************/
+
+/*********************Date Control Start***********************/
+#Date {
+    font-size: 21px;
+    vertical-align: top;
+    padding: 0px;
+    font-weight: bold;
+}
+
+#dateRightDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 10px;
+    margin-left: 2px;
+    font-weight: 600;
+    color: #3a8fb7;
+}
+
+#Year, #Month {
+    text-align: center;
+}
+
+#dateControl {
+    display: inline-flex !important;
+}
+/*********************Date Control End***********************/
+
+
+#searchBoxArea {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    z-index: 9999;
+    webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+    -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0px 3px 1px;
+    border-radius: 0px;
+    display: none;
+    color: #3a8fb7;
+}
+
+    #searchBoxArea #searchBoxInnerArea {
+        width: 96%;
+        margin: auto;
+        padding-top: 7px;
+    }
+
+    #searchBoxArea #searchTextBox {
+        width: 94%;
+        border: none;
+        border-bottom: 1px solid #3a8fb7;
+        height: 50%;
+        padding-left: 10px;
+        color: #898484;
+    }
+
+    #searchBoxArea input:focus {
+        outline: none;
+    }
+
+    #searchBoxArea .material-icons {
+        vertical-align: bottom;
+        font-size: 24px !important;
+        cursor: pointer;
+    }
+
+input[type="textbox"] {
+    color: #7a7a7a;
+}
+
+.quickInfoBox {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    font-family: Big John;
+}
+
+.leftQuickInfoBox {
+    width: 50%;
+}
+
+.rightQuickInfoBox {
+    width: 50%;
+}
+
+#quickInfoBoxValue {
+    font-size: 14px;
+    text-align: center;
+}
+
+#quickInfoBoxTitle {
+    text-align: center;
+    font-size: 12px;
+}
+
+#quickInfoBoxValue .material-icons {
+    font-size: 14px !important;
+}
+
+.redLabels {
+    color: #dc7878;
+}
+
+.greenLabels {
+    color: #68e168;
+}
+
+#topLeftAreaForGrid .jsgrid-grid-body, #topLeftAreaForGrid .jsgrid-grid-header  {
+    overflow: hidden;
+}

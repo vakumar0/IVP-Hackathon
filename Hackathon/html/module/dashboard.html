@@ -1,0 +1,103 @@
+﻿<div id="moduleDashboard">
+    <div id="leftArea">
+        <div id="chartTypes">
+            <div id="chartTypeHeading">
+                <label>XIRR</label>
+            </div>
+            <div id="chartTypeOptions">
+                <ul>
+                    <li class="chartTypes" graphtype="grid">Grid</li>
+                    <li class="chartTypes" graphtype="bar">Bar</li>
+                    <li class="chartTypes" graphtype="column">Column</li>
+                    <li class="chartTypes" graphtype="spline">Spline</li>
+                    <li class="chartTypes" graphtype="area">Area</li>
+                </ul>
+            </div>
+        </div>
+        <div id="topLeftArea"></div>
+        <div id="bottomLeftArea">
+            <div class="smalltiles">                                
+                <!--<div class="tileHeading" id="performance">Performance</div>-->
+                <!--<div id="pieHighCharts" graphtype="pie" class="highchartsArea"></div>-->
+                <div class="quickInfoBox" style="margin-top: 16%;">
+                    <div class="leftQuickInfoBox">
+                        <div id="quickInfoBoxTitle">
+                            <label>AUM</label>
+                        </div>
+                        <div id="quickInfoBoxValue" class="greenLabels">
+                            <label>1800 MM</label>
+                            <i class="material-icons">arrow_upward</i>
+                        </div>
+                    </div>
+                    <div class="rightQuickInfoBox">
+                        <div id="quickInfoBoxTitle">
+                            <label>IRR</label>
+                        </div>
+                        <div id="quickInfoBoxValue">
+                            <label>1800 MM</label>
+                           <!-- <i class="material-icons">arrow_upward</i>-->
+                        </div>
+                    </div>                    
+                </div>
+                <div class="quickInfoBox">
+                    <div class="leftQuickInfoBox">
+                        <div id="quickInfoBoxTitle">
+                            <label>LONG</label>
+                        </div>
+                        <div id="quickInfoBoxValue" class="redLabels">
+                            <label>1800 MM</label>
+                            <i class="material-icons">arrow_downward</i>
+                        </div>
+                    </div>
+                    <div class="rightQuickInfoBox">
+                        <div id="quickInfoBoxTitle">
+                            <label>SHORT</label>
+                        </div>
+                        <div id="quickInfoBoxValue" class="greenLabels">
+                            <label>1800 MM</label>
+                            <i class="material-icons">arrow_upward</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="quickInfoBox">
+                    <div class="leftQuickInfoBox">
+                        <div id="quickInfoBoxTitle">
+                            <label>GROSS</label>
+                        </div>
+                        <div id="quickInfoBoxValue">
+                            <label>1800 MM</label>
+                            <!--<i class="material-icons">arrow_upward</i>-->
+                        </div>
+                    </div>
+                    <div class="rightQuickInfoBox">
+                        <div id="quickInfoBoxTitle">
+                            <label>NET</label>
+                        </div>
+                        <div id="quickInfoBoxValue" class="redLabels">
+                            <label>1800 MM</label>
+                            <i class="material-icons">arrow_downward</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tiles crop">
+                <div class="tileHeading" id="capital_summary">Capital Summary</div>
+                <div id="barHighCharts" graphtype="spline" class="highchartsArea"></div>                
+            </div>
+        </div>
+    </div>
+    <div id="rightArea">
+        <div class="tiles">
+            <div class="tileHeading" id="xirr">Xirr</div>
+            <div id="columnHighcharts" graphtype="column" class="highchartsArea"></div>
+        </div>
+        <div class="tiles">
+            <div class="tileHeading" id="risk_analysis">Risk Analysis</div>
+            <div id="splineHighcharts" graphtype="spline" class="highchartsArea"></div>
+        </div>
+        <div class="tiles">
+            <div class="tileHeading" id="top_funds">Top Funds</div>
+            <div id="areaHighcharts" graphtype="area" class="highchartsArea"></div>
+        </div>
+    </div>
+</div>
